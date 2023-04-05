@@ -1,0 +1,45 @@
+.collaboration {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.collaboration h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.project-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.project-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+}
+
+.project-info {
+    flex: 1;
+}
+
+.project-info h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 5px 0;
+}
+
+.project-info p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.project-actions {
+    display: flex;
+    gap: 10px;
+}

@@ -1,0 +1,45 @@
+.data-mapping {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.data-mapping h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.mapping-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.mapping-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+}
+
+.mapping-info {
+    flex: 1;
+}
+
+.mapping-info h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 5px 0;
+}
+
+.mapping-info p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.mapping-actions {
+    display: flex;
+    gap: 10px;
+}
